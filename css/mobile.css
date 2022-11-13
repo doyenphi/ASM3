@@ -1,0 +1,49 @@
+@media (max-width: 767px) {
+  div.full-details {
+    display: none;
+  }
+  div.less-details {
+    display: block;
+  }
+  .banner > .name {
+    top: 5%;
+    left: 40%;
+    font-size: 5px;
+  }
+  .banner h1 {
+    font-size: 10px;
+  }
+
+  /*navbar*/
+  #nav-bar > .nav-item {
+    border-left: none;
+  }
+  .image-avatar {
+    width: 0px;
+  }
+  .image-avatar .img-avatar {
+    display: none;
+  }
+  .image-avatar img {
+    visibility: hidden;
+  }
+
+  /*job-info*/
+  .jinfo .more {
+    display: inline-block;
+  }
+  /*certificate*/
+  .info-cert img {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .block2::before {
+    display: none;
+  }
+  .block1,
+  .block2,
+  .block3 {
+    border-bottom: 1px #d6c08d solid;
+    padding-top: 20px;
+  }
+}

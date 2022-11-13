@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: blue;
+  border: 1px solid black;
+}
+h2 {
+  color: blue;
+}
+h6 {
+  font-weight: bold;
+}

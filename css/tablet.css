@@ -1,0 +1,43 @@
+@media (min-width: 768px) and (max-width: 991px) {
+  div.less-details {
+    display: none;
+  }
+  .banner > .name {
+    top: 10%;
+    left: 35%;
+  }
+
+  /*navbar*/
+  .image-avatar {
+    width: 50px;
+  }
+  .image-avatar .img-avatar {
+    display: none;
+  }
+  .image-avatar img {
+    visibility: hidden;
+  }
+
+  /*job-info*/
+  .jinfo .more {
+    display: inline-block;
+  }
+
+  /*certificate*/
+  .info-cert img {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .block2::before {
+    height: 240px;
+    width: 1px;
+  }
+
+  /*project*/
+  .table {
+    height: 400px;
+  }
+  .row2 {
+    height: 60px;
+  }
+}
